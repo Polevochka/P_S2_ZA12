@@ -18,9 +18,6 @@ type
 procedure RandomMatrix(var M: Matr; n: integer);
 procedure MoveRight(var M: Matr; n: integer);
 procedure MoveLeft(var M: Matr; n: integer);
-// Интересно будет отметить, что функцию PosIndexMaxInCol
-// здесь не надо указывать, тк она нигде кроме как внутри функций
-// MoveUp и MoveDown не используется
 
 implementation
 

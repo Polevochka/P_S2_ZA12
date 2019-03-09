@@ -44,7 +44,7 @@ implementation
 { TForm1 }
 
 // удобно будет создать процедуру вывода матрицы в объект типа TMemo
-// 'var mem:TMemo' так как мы будем изменять объект Memo - записывать в него
+// 'var AMemo:TMemo' так как мы будем изменять объект Memo - записывать в него
 // Хотя это не обязательно, работает и без, тупо для приличия делаем так
 procedure DisplayMatrix(M: Matr; n: integer; var AMemo: TMemo);
 var
